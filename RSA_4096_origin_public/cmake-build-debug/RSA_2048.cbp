@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RSA_2048"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RSA_2048">
+				<Option output="C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/RSA_2048.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 RSA_2048"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RSA_2048/fast">
+				<Option output="C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/RSA_2048.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/5.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 RSA_2048/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RSA_4096_origin_public/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/base64.c">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/base64.h">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/bignum.c">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/bignum.h">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/keys.h">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/main.c">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/public.c">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/public.h">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/rsa.c">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/rsa.h">
+			<Option target="RSA_2048"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RSA_4096_origin_public/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

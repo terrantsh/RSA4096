@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/RSA_4096_origin_public/bignum.h
+stdint.h
+-
+
+C:/Users/Administrator/Desktop/RSA_4096_origin_public/rsa.c
+string.h
+-
+stdio.h
+-
+time.h
+-
+stdlib.h
+-
+rsa.h
+C:/Users/Administrator/Desktop/RSA_4096_origin_public/rsa.h
+bignum.h
+C:/Users/Administrator/Desktop/RSA_4096_origin_public/bignum.h
+
+C:/Users/Administrator/Desktop/RSA_4096_origin_public/rsa.h
+stdint.h
+-
+

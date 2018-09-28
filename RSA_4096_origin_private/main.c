@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
 
     
     finish = clock();
-    duration = (double)(finish - start) / CLOCKS_PER_SEC;   // 打印加解密过程持续的时间
+    duration = (double)(finish - start) / CLOCKS_PER_SEC;   // print the time about the process
     printf( "%f seconds\n", duration );
 
     return 0;

@@ -62,26 +62,6 @@ void bn_assign_zero(bn_t *a, uint32_t digits)
         a[i] = 0;
     }
 }
-//
-//bn_t bn_add(bn_t *a, bn_t *b, bn_t *c, uint32_t digits)
-//{
-//    bn_t ai, carry;
-//    uint32_t i;
-//
-//    carry = 0;
-//    for(i=0; i<digits; i++) {
-//        if((ai = b[i] + carry) < carry) {
-//            ai = c[i];
-//        } else if((ai += c[i]) < c[i]) {
-//            carry = 1;
-//        } else {
-//            carry = 0;
-//        }
-//        a[i] = ai;
-//    }
-//
-//    return carry;
-//}
 
 bn_t bn_sub(bn_t *a, bn_t *b, bn_t *c, uint32_t digits)
 {
